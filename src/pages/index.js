@@ -17,6 +17,7 @@ const block = {
     "uOttawa-TimeTable-Maker": true,
     "UOTTAHACK_Hackathon": true,
     "hello-github-actions": true,
+    "strawstack.github.io": true
 };
 
 const filterBlocked = lst => {
@@ -88,7 +89,7 @@ export default class Home extends React.Component {
                             <SiteDescription>
                                 <p><span>About:</span> I'm a programer who makes tools, games, and digital art.</p>
                                 <p>I pulled data for this site from my public repos using the Github GraphQL API and Gatsby.</p>
-                                <p><Link href="#">Fork the code</Link> for this site on Github.</p>
+                                <p><Link href="https://strawstack.github.io/">Fork the code</Link> for this site on Github.</p>
                                 <p>Here's a link to <Link href="https://drive.google.com/file/d/1Jisvj2ih6ZE1sOBZKavhUZaZQKs0385J/view?usp=sharing">my resume</Link>. Check out my <Link href="https://richard.dev/">other site</Link> for more cool stuff.</p>
                             </SiteDescription>
 

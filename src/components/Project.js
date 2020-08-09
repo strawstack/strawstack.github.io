@@ -38,7 +38,7 @@ function ImageOrPlaceHolder(node) {
 
 function demoOrPlaceholder(node) {
     const url = node.homepageUrl;
-    if (url !== "") {
+    if (url !== null) {
         return (
             <a
                 className={`${styles.LinkArea} ${styles.Demo}`}
