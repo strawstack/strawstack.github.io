@@ -38,8 +38,7 @@ function ImageOrPlaceHolder(node) {
 
 function demoOrPlaceholder(node) {
     const url = node.homepageUrl;
-    console.log(url, url !== null, url !== "");
-    if (url !== null) {
+    if (url !== null && url !== "") {
         return (
             <a
                 className={`${styles.LinkArea} ${styles.Demo}`}
