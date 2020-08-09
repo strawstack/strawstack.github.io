@@ -1,0 +1,9 @@
+@value cellHeight: 60vh;
+
+.SmileFace {
+    height: cellHeight;
+    background-image: url("../img/face.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

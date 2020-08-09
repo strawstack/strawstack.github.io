@@ -1,0 +1,9 @@
+.Link {
+    color: white;
+    transition: background 0.5s;
+    padding: 2px;
+    border-radius: 4px;
+}
+.Link:hover {
+    background: #CD4551;
+}

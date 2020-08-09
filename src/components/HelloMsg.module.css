@@ -1,0 +1,23 @@
+@value cellHeight: 60vh;
+
+.HelloMsg {
+    height: cellHeight;
+    color: #CD4551;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F9B535;
+}
+.Container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.Title {
+    font-size: 2.5rem;
+}
+.Subtitle {
+    opacity: 0.5;
+    font-size: 1.5rem;
+}

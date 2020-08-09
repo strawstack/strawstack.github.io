@@ -1,0 +1,15 @@
+@value pageBackground: #FCBE5B;
+
+.CenterColumn {
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    background: pageBackground;
+}
+
+@media screen and (max-width: 600px) {
+    .CenterColumn {
+        grid-template-columns: 1fr;
+    }
+}

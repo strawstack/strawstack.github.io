@@ -1,0 +1,57 @@
+@value cellHeight: 60vh;
+
+.Project {
+    height: cellHeight;
+    position: relative;
+    display: grid;
+    grid-auto-rows: 1fr minmax(0px, 83px) 40px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        'z z'
+        'y y'
+        'x w';
+}
+.ImageArea {
+    grid-area: z;
+}
+.DescriptionArea {
+    grid-area: y;
+    padding: 10px;
+    color: #CD4551;
+    overflow-y: scroll;
+}
+.TitleArea {
+    opacity: 0.5;
+}
+.LinkArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: background 0.5s;
+}
+.LinkArea:hover {
+    background: #CD4551;
+}
+.Demo {
+    grid-area: x;
+    border-top: 1px dashed white;
+    border-right: 1px dashed white;
+}
+.Code {
+    grid-area: w;
+    border-top: 1px dashed white;
+}
+.Placeholder {
+    grid-area: z;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #F9B535;
+}
+@media screen and (max-width: 600px) {
+    .Project {
+        grid-auto-rows: 1fr auto 40px;
+    }
+}

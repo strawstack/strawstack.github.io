@@ -1,0 +1,16 @@
+@value cellHeight: 60vh;
+
+.SiteDescription {
+    background: #F9B535;
+    height: cellHeight;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.DescriptionBox {
+    padding: 0px 20px;
+    color: #CD4551;
+}
+.DescriptionBox>p>span {
+  opacity: 0.5;
+}
